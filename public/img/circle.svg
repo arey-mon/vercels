@@ -1,0 +1,9 @@
+<svg height="100" width="100" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+	<defs>
+		<linearGradient id="bluepurple" gradientTransform="rotate(65)">
+			<stop offset="0%" stop-color="#8EC5FC" />
+			<stop offset="100%" stop-color="#bbc3fc" />
+		</linearGradient>
+	</defs>
+	<circle cx="50" cy="50" r="40" stroke="" stroke-width="0" fill="url(#bluepurple)" />
+</svg>

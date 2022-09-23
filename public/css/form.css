@@ -1,0 +1,41 @@
+.TiltApplyFormMask {
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	background: #e4dfffcc;
+}
+
+.TiltApplyForm {
+	background: #ffffff;
+	padding: 2em;
+	border-radius: 20px;
+	border: 10px solid #000000;
+	text-align: right;
+}
+
+.TiltApplyForm .title {
+	text-align: center;
+}
+
+.TiltApplyForm input, .TiltApplyForm textarea {
+	width: 50%;
+	border: 1px solid #f9f9f9;
+	border-bottom: 1px solid #c0c0c0;
+}
+
+.TiltApplyForm .submit {
+	width: 15em;
+	background: #ff7d43;
+	color: #ffffff;
+	font-weight: 900;
+	border-radius: 5px;
+	border: 0;
+	padding: 1em;
+}
+
+.TiltApplyForm .submit:hover {
+	background: #ff864c;
+}

@@ -1,0 +1,226 @@
+body,h1,h2,h3,h4,h5,h6 {
+	font-family: "IBMPlexSans-Regular", serif
+	margin: 10%;
+}
+
+body, html {
+	font-family: "IBMPlexSans-Regular", serif
+	height: 100%;
+	line-height: 1.8;
+}
+
+#__next {
+	height: 100%;
+}
+
+/* Full height image header */
+.bgimg-1 {
+	background-position: center;
+	background-size: cover;
+	background-color: #8EC5FC;
+	background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+	min-height: 100%;
+	min-height: 466px;
+}
+
+.bgimg-1 > div {
+	padding: 120px 48px 48px 0;
+}
+
+.circleimg {
+	border-radius: 50%;
+	clip-path:ellipse(50% 50%);
+	width: 11vw;
+}
+
+.w3-bar .w3-button {
+	margin: auto;
+	padding: 36px;
+	padding-top: 24px;
+}
+
+.w3-bar .w3-button.SignIn span {
+	border: 1px solid #e0e0e0;
+	padding: 5px 3em;
+	border-radius: 5px;
+	box-shadow: 0px 2px 3px #e0e0e0;
+}
+
+.logo-img {
+	margin-top: 0px;
+	float: left;
+	width: 5%;
+	height: auto;
+}
+
+.title{
+	font-size: 11vw;
+	position: relative;
+	left: 25px;
+}
+
+.box{
+	border:3px solid #000;
+	border-radius: 30px 30px 30px 30px;
+	width: 200px;
+	height: 200px;
+	background: white;
+}
+
+.column {
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+/* Clear floats after the columns */
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Allows responsiveness */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+.wordList {
+	margin: 10px;
+	background-image: url(/img/circle.svg);
+	background-repeat: no-repeat;
+}
+
+.circleImg {
+	background-image: url(/img/circle.svg);
+}
+
+.wordList ul {
+	padding-left: 1em;
+}
+
+.wordList h3 {
+}
+
+.threeColumns {
+	width: 33.33%;
+	float: left;
+	position: relative;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	float: left;
+	padding: 5px;
+}
+
+.twoColumns {
+	width: 50%;
+	position: relative;
+	display: grid;
+	align-items: center;
+	justify-items: center;
+	float: left;
+	padding: 5px;
+}
+
+/*{Testing gradients}*/
+.gradient1 {
+	background-position: center;
+	background-size: cover;
+	background-color: #8EC5FC;
+	background: linear-gradient(180deg, #629AED 0%, #6399EE 9.38%, #6581C5 23.96%, #657FC2 41.67%, #6871A9 51.56%, #6A6696 75.52%, #6D5B82 86.46%, #6C5172 100%);
+	min-height: 100%;
+	min-height: 1766px;
+}
+
+.gradient2 {
+	background-position: center;
+	background-size: cover;
+	background-color: #8EC5FC;
+	background: linear-gradient(180deg, #E89F42 0%, #D99644 22.92%, #C0854C 42.19%, #AE7A53 59.9%, #966A5F 74.48%, #815D6A 86.46%, #75556F 100%);
+	min-height: 100%;
+	min-height: 1766px;
+}
+
+.gradadvisors {
+	/*background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);*/
+	/*background-image: linear-gradient(25deg, #332b93, #425da9, #458dbf, #38c0d5);*/
+	background-color: white;
+}
+
+.padvisors {
+	width:'60%';
+	textAlign: 'center';
+}
+
+.wording {
+	height: 750px;
+	font-family: "IBMPlexSans-Regular", serif
+	font-weight: 100px;
+	text-align: center;
+}
+
+/* {Unused - Gay flag colors}
+.gradrainbow {
+    height: 3000px;
+    border-radius: 5px;
+    background: linear-gradient(
+        rgba(228, 3, 3, 1) 0%,
+        rgba(255, 154, 0, 1) 10%,
+        rgba(208, 222, 33, 1) 20%,
+        rgba(79, 220, 74, 1) 30%,
+        rgba(63, 218, 216, 1) 40%,
+        rgba(47, 201, 226, 1) 50%,
+        rgba(28, 127, 238, 1) 60%,
+        rgba(95, 21, 242, 1) 70%,
+        rgba(186, 12, 248, 1) 80%,
+        rgba(251, 7, 217, 1) 90%,
+        rgba(255, 0, 0, 1) 100%
+    );
+}
+
+.banred {
+	height: 650px;
+	background-color: rgb(228, 3, 3);}
+
+.banyellow {
+	height: 650px;
+	background-color: rgb(255, 237, 0);
+}
+
+.bangreen {
+	height: 650px;
+	background-color: rgb(0, 128, 38);
+}
+
+.banblue {
+	height: 650px;
+	background-color: rgb(36, 64, 142);
+}
+
+.banpurple {
+	height: 650px;
+	background-color: rgb(115, 41, 130);
+}
+
+
+.gradrainbow1 {
+	background: rgb(255,33,33);
+	background: linear-gradient(142deg, rgba(255,33,33,0.7105435924369747) 0%, rgba(255,205,59,1) 100%);
+	height: 650px;
+}
+
+.gradrainbow2 {
+	background: rgb(255,205,59);
+	background: linear-gradient(142deg, rgba(255,205,59,1) 0%, rgba(223,94,28,0.9150253851540616) 100%);
+	height: 650px;
+}
+
+.gradrainbowfull {
+background: rgb(255,59,59);
+background: linear-gradient(167deg, rgba(255,179,59,1) 0%, #f9d423 5%, rgba(240,203,45,1) 10%, rgba(35,230,108,1) 40%, rgba(28,217,223,1) 60%, rgba(0,187,255,1) 85%, rgba(209,74,255,1) 100%);
+height: 100% vw;
+}
+*/

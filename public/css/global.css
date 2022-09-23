@@ -1,0 +1,75 @@
+@font-face {
+	font-family:"IBMPlexSans-Regular"
+	src: url('/font/IBMPlexSans/IBMPlexSans-Regular.otf');
+	font-family:"IBMPlexSans-Bold"
+	src: url('/font/IBMPlexSans/IBMPlexSans-Bold.otf');
+	font-family: "Montserrat-regular";
+	src: url('/font/montserrat/Montserrat-Regular.otf');
+	font-family: "Montserrat-Bold";
+	src: url('/font/montserrat/Montserrat-Bold.otf');
+}
+
+html, body {
+	background: #ffffff;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-family: "Montserrat-Regular";
+}
+
+#ban {
+	background: linear-gradient(#9e8efa, #6357a5);
+	color: #ffffff;
+	border-bottom: 2px solid #ff7d43;
+}
+
+#ban .navbar {
+	display: flex;
+	padding: 0 10% 0 0;
+	justify-content: flex-end;
+	background: #241d5b20;
+}
+
+#ban .navbar .item {
+}
+
+#ban .navbar .item a {
+	text-decoration: none;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 3em;
+	width: 100%;
+	margin: 0 .5em;
+}
+
+#ban .navbar .item a:hover {
+	background: #ffffff33;
+}
+
+#ban #brand {
+	display: flex;
+	align-items: center;
+}
+
+#ban #brand .logo {
+	background-image: url("/img/logo.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	width: 150px;
+	height: 150px;
+}
+
+#ban #brand h1 {
+	font-weight: 100;
+	font-size: 3em;
+}
+
+#ban #baseline {
+	font-size: 1.5em;
+	text-align: center;
+	padding: 1.5em 0 2em 0;
+	color: #e2ddff;
+}
